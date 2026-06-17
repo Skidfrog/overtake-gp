@@ -1,0 +1,30 @@
+# Carpetes locals que no pugen
+desenvolupament cl/
+disseny/
+fonts/
+pdf mensual metricool/
+presentacio/
+
+# Figures generades automàticament
+figures/
+*.png
+
+# Notebooks de versions anteriors
+*_v2*
+*_v3*
+*_v4.ipynb
+
+# Power BI
+*.pbix
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Dades sensibles
+*.tsv
